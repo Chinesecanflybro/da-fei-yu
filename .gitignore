@@ -1,0 +1,78 @@
+# ============================================================
+# 大肥鱼 / DesktopPet — 强制排除清单
+# 本文件是仓库的“安全闸门”。任何个人数据、凭据、运行产物
+# 一律不得进入 git 历史（一旦提交，历史里永久留存）。
+# ============================================================
+
+# --- 1. 凭据类（最高优先级，绝不允许）---
+*.bin
+*.key
+*.pem
+*.pfx
+*.p12
+*api_key*
+*platform_token*
+*.credentials.yaml
+.credentials.yaml
+.env
+.env.*
+*.secret
+
+# --- 2. 数据库与运行数据（含个人会话历史）---
+*.db
+*.db-shm
+*.db-wal
+
+# --- 3. 个人记忆（本仓库永不收录个人记忆内容）---
+memory/
+**/memory/
+!docs/**
+
+# --- 4. 运行期产生的一切 ---
+data/
+temp/
+tmp/
+log/
+logs/
+*.log
+tool-output/
+prompt-history.jsonl
+session_diff/
+locks/
+*.lock/
+heartbeat
+
+# --- 5. 程序本体与二进制发行包（走 GitHub Release，不入库）---
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+*.iso
+*.dmg
+*.AppImage
+
+# --- 6. 依赖与构建产物 ---
+node_modules/
+dist/
+build/
+out/
+*.tsbuildinfo
+.cache/
+
+# --- 7. 编辑器 / 系统杂物 ---
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+
+# --- 8. 刻意保留：文档与校验清单 ---
+!README.md
+!LICENSE
+!docs/**
+!tools/**
+!releases/**
+!scripts/**

@@ -1,0 +1,273 @@
+﻿{
+    "label":  "DaFeiYu Portable (USB layout)",
+    "generated_at":  "2026-10-10 11:27:10",
+    "generated_by":  "tools/make-manifest.ps1",
+    "source_note":  "metadata and hashes only; file contents were not copied",
+    "file_count":  10,
+    "total_bytes":  450022426,
+    "excluded_count":  40,
+    "excluded":  [
+                     {
+                         "path":  "agent\\cache\\opencode\\models.json",
+                         "bytes":  5340018,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\opencode.db",
+                         "bytes":  2277351424,
+                         "reason":  "name-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\opencode.db-shm",
+                         "bytes":  32768,
+                         "reason":  "name-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\opencode.db-wal",
+                         "bytes":  4152,
+                         "reason":  "name-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\log\\opencode.log",
+                         "bytes":  7285837,
+                         "reason":  "name-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\storage\\migration",
+                         "bytes":  1,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\storage\\session_diff\\ses_ef31a43feffepHj35tZHurnoc3.json",
+                         "bytes":  2,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\storage\\session_diff\\ses_ef3c1107fffeD9CD7qa5V6EtE2.json",
+                         "bytes":  2,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\storage\\session_diff\\ses_effbdd6e0ffeCPXNjDblucB4f0.json",
+                         "bytes":  2,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\storage\\session_diff\\ses_f04a0c72bffeDKwbPE5pdCNp3O.json",
+                         "bytes":  2,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\storage\\session_diff\\ses_f430fef46ffedM8OYHUe7Cdcoy.json",
+                         "bytes":  2,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\tool-output\\tool_0fb60d4af001qkg14RNBudywi3",
+                         "bytes":  444439,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\tool-output\\tool_0fb95c66b001GrrSjYaJb53H63",
+                         "bytes":  2339150,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\tool-output\\tool_0fb96f306001asaBNXNJg8xMj9",
+                         "bytes":  67843,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\tool-output\\tool_10c3f99ef0016zvLi7JaH0ktkW",
+                         "bytes":  157862,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\data\\opencode\\tool-output\\tool_10cce8d98001Yewodsg0KfsDFm",
+                         "bytes":  66054,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\state\\opencode\\model.json",
+                         "bytes":  328,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\state\\opencode\\prompt-history.jsonl",
+                         "bytes":  1126289,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\state\\opencode\\locks\\1644c01cd83e21961af4993833eba3511a74a1b0.lock\\heartbeat",
+                         "bytes":  0,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\state\\opencode\\locks\\1644c01cd83e21961af4993833eba3511a74a1b0.lock\\meta.json",
+                         "bytes":  128,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\state\\opencode\\locks\\4e77553be4fad868b8395e91e66491b36d264016.lock\\heartbeat",
+                         "bytes":  0,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "agent\\state\\opencode\\locks\\4e77553be4fad868b8395e91e66491b36d264016.lock\\meta.json",
+                         "bytes":  128,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "data\\config.json",
+                         "bytes":  1520,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "data\\desktop_pet_usage.json",
+                         "bytes":  264,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\00_CORE_MEMORY.md",
+                         "bytes":  2483,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\01_TOTAL_PLAN.md",
+                         "bytes":  1755,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\02_ZHANG_RESEARCH.md",
+                         "bytes":  2116,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\03_DA_FEI_YU.md",
+                         "bytes":  1988,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\04_PSY.md",
+                         "bytes":  629,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\06_GE.md",
+                         "bytes":  921,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\INDEX.md",
+                         "bytes":  2571,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\03_CONTEXT\\AI_MEMORY_RULES.md",
+                         "bytes":  1466,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\03_CONTEXT\\CURRENT_TASK.md",
+                         "bytes":  204,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\03_CONTEXT\\IMPORTANT_DECISIONS.md",
+                         "bytes":  253,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\05_CHEM\\1083L.md",
+                         "bytes":  1589,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\07_TOEFL\\00_INDEX.md",
+                         "bytes":  933,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\07_TOEFL\\01_SPEAKING.md",
+                         "bytes":  1307,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\07_TOEFL\\02_WRITING.md",
+                         "bytes":  944,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\07_TOEFL\\03_READING.md",
+                         "bytes":  389,
+                         "reason":  "path-pattern"
+                     },
+                     {
+                         "path":  "memory\\07_TOEFL\\04_LISTENING.md",
+                         "bytes":  351,
+                         "reason":  "path-pattern"
+                     }
+                 ],
+    "files":  [
+                  {
+                      "path":  "DesktopPet.exe",
+                      "bytes":  387878729,
+                      "sha256":  "fe41e3ab8aa6df411cdb456282336e34d775fdd74a7536ddd882a57c62287568",
+                      "mtime":  "2026-10-07 21:34:08"
+                  },
+                  {
+                      "path":  "opencode-windows-x64.zip",
+                      "bytes":  62127126,
+                      "sha256":  "cc827fda2e32502373c5de25a4b78471766b99881d12a441ae5b9fcff39c5780",
+                      "mtime":  "2026-10-01 12:25:12"
+                  },
+                  {
+                      "path":  "portable.flag",
+                      "bytes":  8,
+                      "sha256":  "01e782826ae5182220bd6158f883d01ceb1bce659dc020e7c511f802a9aa7737",
+                      "mtime":  "2026-10-07 21:34:08"
+                  },
+                  {
+                      "path":  "使用说明.txt",
+                      "bytes":  1458,
+                      "sha256":  "560fdad66ab7767adb0bae185a9f362d0b59b2022e6e5d1c6d211ee0bec6f2c7",
+                      "mtime":  "2026-10-01 12:44:16"
+                  },
+                  {
+                      "path":  "启动-大肥鱼-Portable.cmd",
+                      "bytes":  107,
+                      "sha256":  "f15d87b870faa031ad0c9fab089b9237aa9cd6b6b32b0ad702cc80783da07bc4",
+                      "mtime":  "2026-10-07 21:34:08"
+                  },
+                  {
+                      "path":  "agent\\config\\.gitignore",
+                      "bytes":  63,
+                      "sha256":  "663a068e76d264d0bc6740f5450b6c4193c7b41ecf5e0dc222485b8a17404d95",
+                      "mtime":  "2026-10-07 23:13:40"
+                  },
+                  {
+                      "path":  "agent\\config\\opencode\\.gitignore",
+                      "bytes":  63,
+                      "sha256":  "663a068e76d264d0bc6740f5450b6c4193c7b41ecf5e0dc222485b8a17404d95",
+                      "mtime":  "2026-09-18 12:02:48"
+                  },
+                  {
+                      "path":  "agent\\config\\opencode\\opencode.jsonc",
+                      "bytes":  174,
+                      "sha256":  "9c8cc73505a52dbe389d7fb33a7c9aaf9f6791e02de17266bab1566ce9047266",
+                      "mtime":  "2026-10-07 22:30:38"
+                  },
+                  {
+                      "path":  "agent\\config\\opencode\\package-lock.json",
+                      "bytes":  14633,
+                      "sha256":  "01c72a654ed0f96ee2510625fa14f533231423f13840004af785d1415ba25159",
+                      "mtime":  "2026-09-18 12:03:20"
+                  },
+                  {
+                      "path":  "agent\\config\\opencode\\package.json",
+                      "bytes":  65,
+                      "sha256":  "5c9a30456576bfed97d6c33daab9cbd167dd29ee7ca91f4c9ad40c3b31781e8d",
+                      "mtime":  "2026-09-18 12:03:20"
+                  }
+              ]
+}

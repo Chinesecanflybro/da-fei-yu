@@ -1,0 +1,63 @@
+﻿{
+    "label":  "DesktopPet v1.18.37 (Windows desktop build)",
+    "generated_at":  "2026-10-10 11:27:08",
+    "generated_by":  "tools/make-manifest.ps1",
+    "source_note":  "metadata and hashes only; file contents were not copied",
+    "file_count":  5,
+    "total_bytes":  446015977,
+    "excluded_count":  4,
+    "excluded":  [
+                     {
+                         "path":  "DesktopPet\\desktop_pet_api_key.bin",
+                         "bytes":  298,
+                         "reason":  "name-pattern"
+                     },
+                     {
+                         "path":  "DesktopPet\\desktop_pet_opencode_serve.log",
+                         "bytes":  1416,
+                         "reason":  "name-pattern"
+                     },
+                     {
+                         "path":  "DesktopPet\\desktop_pet_platform_token.bin",
+                         "bytes":  298,
+                         "reason":  "name-pattern"
+                     },
+                     {
+                         "path":  "DesktopPet\\desktop_pet_startup.log",
+                         "bytes":  16638,
+                         "reason":  "name-pattern"
+                     }
+                 ],
+    "files":  [
+                  {
+                      "path":  "DeepSeek娘 - 唤醒.lnk",
+                      "bytes":  918,
+                      "sha256":  "457171a65f3fd76058d63709c2408b39fd0dc02ffa4ccf6bde1e679c76d4e8a1",
+                      "mtime":  "2026-10-02 14:43:35"
+                  },
+                  {
+                      "path":  "DesktopPet\\config.json",
+                      "bytes":  1520,
+                      "sha256":  "5d20e11449fea4792a06488f3b7a02a71589038f48889620986602f1a66f8411",
+                      "mtime":  "2026-10-09 11:56:10"
+                  },
+                  {
+                      "path":  "DesktopPet\\DesktopPet.exe",
+                      "bytes":  383884955,
+                      "sha256":  "7678575da223405b95f4348177dd9c1fb2c0c3fd20be223661563c84223b8642",
+                      "mtime":  "2026-10-01 12:42:02"
+                  },
+                  {
+                      "path":  "DesktopPet\\opencode-windows-x64.zip",
+                      "bytes":  62127126,
+                      "sha256":  "cc827fda2e32502373c5de25a4b78471766b99881d12a441ae5b9fcff39c5780",
+                      "mtime":  "2026-10-01 12:25:10"
+                  },
+                  {
+                      "path":  "DesktopPet\\使用说明.txt",
+                      "bytes":  1458,
+                      "sha256":  "560fdad66ab7767adb0bae185a9f362d0b59b2022e6e5d1c6d211ee0bec6f2c7",
+                      "mtime":  "2026-10-01 12:44:14"
+                  }
+              ]
+}

@@ -1,0 +1,36 @@
+                    MIT License
+
+Copyright (c) 2026 Chinesecanflybro
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+SCOPE NOTE / 适用范围说明
+
+The MIT license above applies to the documentation, scripts, manifests, and
+configuration templates contained in THIS repository.
+
+It does NOT automatically apply to the DesktopPet application binary or to the
+bundled OpenCode CLI distribution, which are separate works distributed (if at
+all) as release attachments or from their own upstream projects. Their
+licensing must be determined separately.
+
+本 MIT 许可仅覆盖本仓库内的文档、脚本、清单与配置模板；
+不自动覆盖 DesktopPet 程序本体与内置的 OpenCode CLI 分发件——
+它们是独立作品，许可需另行确定。
