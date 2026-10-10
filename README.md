@@ -38,14 +38,40 @@
 
 ## 三、下载与校验
 
+### 已发布版本
+
+| Release | 内容 | 附件 |
+|---|---|---|
+| `v1.18.37` | 桌面版（解压即用） | `v1.18.37.zip`（443,814,276 B） |
+| `portable-v1.18.37` | U 盘便携版（**脱敏空骨架**） | `DaFeiYu-Portable-v1.18.37.zip`（447,788,472 B） |
+
+> 便携版附件**不含**会话数据库、个人记忆、API Key 或日志；`data/`、`memory/`、`temp/` 为空目录，首次运行时由程序生成。
+
+### 校验方法
+
 1. 到本仓库 **Releases** 页面下载发行包。
 2. 解压后运行自校验脚本，逐文件比对 SHA-256：
 
 ```powershell
-pwsh ./tools/verify.ps1 -Root "<解压后的目录>" -Manifest ./releases/manifest.json
+# 桌面版
+pwsh ./tools/verify.ps1 -Root "<解压后的目录>" -Manifest ./releases/manifest-v1.18.37.json
+# 便携版
+pwsh ./tools/verify.ps1 -Root "<解压后的目录>" -Manifest ./releases/manifest-portable.json
 ```
 
 3. 全部一致 → 文件未被篡改或损坏。任何一项不一致 → 停止使用并重新下载。
+
+### 关于"真正 USB Portable"的现状（如实说明）
+
+已核实**成立**：启动器使用相对路径（换盘符可用）、临时目录重定向到 U 盘内、
+OpenCode 工作目录与记忆引用都跟随 U 盘位置、U 盘内容与备份**逐字节一致**（50/50 SHA-256）。
+
+**尚未达成 / 待核验**：换机"零残留"。已在宿主注册表发现自启项
+（`HKCU\...\Run` → `DeepSeekDesktopPet`），且 U 盘配置中 `autostart.enabled = true`；
+DSH 数据根也**尚未**落在 U 盘。
+
+完整证据见 `docs/VERIFICATION-2026-10-10-usb-audit.md`；
+待核验清单见 `portable/docs/portable-acceptance.md`（在 `portable` 分支）。
 
 ---
 
