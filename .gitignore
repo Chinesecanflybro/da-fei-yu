@@ -76,3 +76,6 @@ desktop.ini
 !tools/**
 !releases/**
 !scripts/**
+
+# 内部发布操作清单（含本机路径），不进公开仓库
+docs/RELEASE-NOTES-draft.md

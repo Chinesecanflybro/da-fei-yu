@@ -51,7 +51,7 @@
 - API Key 退出后是否不残留于宿主
 - 加密实现是否确为 PBKDF2-SHA256(390k) → AES-256-GCM（**设计说明不等于实现**）
 - 便携版服务端口 `4099` / health 版本 `1.18.35` 是否仍成立
-- **DSH 数据根是否真的落在 U 盘**（已知当前 DSH 数据根位于 `C:\Users\111\.dsh`）
+- **DSH 数据根是否真的落在 U 盘**（已知当前 DSH 数据根仍位于本机用户目录下，而非 U 盘）
 
 详见仓库 `portable` 分支的 `portable/docs/portable-acceptance.md`。
 
