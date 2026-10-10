@@ -1,0 +1,72 @@
+# ============================================================
+#  大肥鱼 Portable — 配置模板（脱敏）
+#  用法：把本文件复制为  <便携根>\data\config.json  再按需修改。
+#  本模板不含任何 API Key、令牌或机器专有路径。
+#  Key 请由程序界面填入，由程序用 Windows DPAPI 在本机加密保存。
+# ============================================================
+{
+  "window": {
+    "width": 420,
+    "height": 520,
+    "alwaysOnTop": true,
+    "transparent": true
+  },
+  "assets": {
+    "vrmPath": ""
+  },
+  "runtime": {
+    "websocketHost": "127.0.0.1",
+    "websocketPort": 8765,
+    "wakeHotkey": "Ctrl+Alt+D",
+    "actionHotkeys": {
+      "sad": "Shift+F",
+      "proud": "Shift+P",
+      "token": "Shift+T",
+      "chat": "Shift+C"
+    }
+  },
+  "chat": {
+    "provider": "deepseek",
+    "baseUrl": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "systemPrompt": "<在这里填写你自己的系统提示词>"
+  },
+  "stats": {
+    "enabled": true,
+    "refreshSeconds": 60
+  },
+  "autostart": {
+    "enabled": false
+  },
+  "pet": {
+    "scale": 0.75
+  },
+  "opencode": {
+    "autoStart": true,
+    "autoInstall": true,
+    "allowDownload": true,
+    "bundlePath": null,
+    "minimumVersion": "",
+    "host": "127.0.0.1",
+    "port": 4096,
+    "statusPollSeconds": 2.0,
+    "startTimeoutSeconds": 20.0
+  },
+  "dsh": {
+    "enabled": true,
+    "port": 0,
+    "pollSeconds": 1.5
+  },
+  "roam": {
+    "enabled": false,
+    "speed": "normal",
+    "range": "current",
+    "edge": "reroll",
+    "rememberPosition": false,
+    "resumeAfterDrag": true,
+    "custom": { "left": 0, "top": 0, "right": 0, "bottom": 0 }
+  },
+  "onboarding": {
+    "completed": false
+  }
+}
